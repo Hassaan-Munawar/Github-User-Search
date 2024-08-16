@@ -1,1 +1,1 @@
-<h1>Github User Search Link : https://gitusersearch.netlify.app</h1>
+<h1>Github User Search Link : https://gitsusersearch.netlify.app</h1>
