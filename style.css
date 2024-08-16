@@ -1,0 +1,102 @@
+body {
+    background-color: #f0f4f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+}
+.navbar {
+    width: 100%;
+    max-width: 700px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-container {
+    display: flex;
+    gap: 10px;
+}
+.form-control {
+    border-radius: 5px;
+}
+.btn-search {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.btn-search:hover {
+    background-color: #0056b3;
+}
+.card-horizontal {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-color: #ffffff;
+    width: 80%;
+    margin: auto;
+}
+.card-horizontal:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.card-horizontal img {
+    width: 350px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 15px 0 0 15px;
+}
+.card-body {
+    padding: 20px;
+    width: calc(100% - 200px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.list-group-item {
+    background-color: #f9fafb;
+}
+#show{
+    width:100%; 
+}
+@media (max-width: 576px) {
+    .navbar {
+        margin-top: 20px;
+    }
+    .card-body {
+        padding: 15px;
+    }
+    .card-horizontal {
+        flex-direction: column;
+        width: 100%;
+    }
+    .card-horizontal img {
+        width: 100%;
+        height: auto;
+        border-radius: 15px 15px 0 0;
+    }
+    .card-body {
+        width: 100%;
+    }
+
+    body{
+        padding: 0 10px;
+        overflow: scroll;
+    }
+}
