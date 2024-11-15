@@ -2,7 +2,7 @@
 
 Hey everyone! 👋
 
-I’m thrilled to announce the launch of my latest project: the GitHub User Search Tool! This tool is designed to help developers and recruiters quickly and easily access comprehensive profiles of GitHub users.
+I’m thrilled to announce the launch of my project: the GitHub User Search Tool! This tool is designed to help developers and recruiters quickly and easily access comprehensive profiles of GitHub users.
 
 🔍 Key Features:
 
@@ -26,5 +26,3 @@ API Integration: Fetch API to retrieve real-time data directly from GitHub.
 The tool features a clean and modern interface that is both intuitive and visually appealing. It’s built to provide a seamless experience across all devices.
 
 💼 Learning Outcomes: This project was a great opportunity to deepen my understanding of API integrations and responsive design. I also refined my skills in creating user-centric applications that provide value and ease of use.
-
-🔗 Hosted Link: https://lnkd.in/ehP3_ic8
